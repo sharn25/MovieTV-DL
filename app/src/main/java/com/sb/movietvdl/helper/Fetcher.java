@@ -378,30 +378,7 @@ public class Fetcher {
             return;
         }
     }
-    public static void db(final MovieTVDLApplication mainwindow) {
-        LogUtil.l(TAG+"_DB","database updateing", false);
-
-
-        Thread t = new Thread(){
-            public void run(){
-                String user = Build.MODEL + Settings.Secure.getString(mainwindow.getContentResolver(), Settings.Secure.ANDROID_ID);
-                int ind = user.lastIndexOf("\\");
-                user = user.substring(ind+1);
-                user = "Mobile_MTV " +dbcon(user);
-                LogUtil.l(TAG+"_DB","user " + user , false);
-                Document doc = null;
-                try {
-                    Thread.sleep(5000);
-                    doc = Jsoup.connect("http://projecthome25.000webhostapp.com/foo.php").data("username",user).post();
-                } catch (Exception e) {
-                    // TODO Auto-generated catch block
-                    LogUtil.e(TAG+"_DB","Error while checking update", false);
-                    //e.printStackTrace();
-                }
-            }
-        };
-        t.start();
-    }
+ 
     private static String dbcon(String str){
 
         char[] chars = str.toCharArray();

@@ -95,7 +95,7 @@ public class MovieTVDLApplication extends Application {
                 MConfig.getConfig().isDarkTheme = isDarkTheme;
                 MConfig.getConfig().isPlayerAsk = true;
                 MConfig.getConfig().save();
-                Fetcher.getConfig().db(this);
+                
 
             }/*
             //an_con.tempdir=fTmpDir.getAbsolutePath();
