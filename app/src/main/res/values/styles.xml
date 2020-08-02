@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme.Day -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="buttonStyle">@style/Theme.Widget.Button</item>
+    </style>
+    <!-- Alert Dialog Day -->
+    <style name="MyDialog" parent="Theme.AppCompat.Light.Dialog.Alert"/>
+    <!-- Download List Theme Day -->
+    <style name="AppTheme.List">
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <!-- Button Day -->
+    <style name="Theme.Widget.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="colorButtonNormal">@color/MT_transprent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+</resources>

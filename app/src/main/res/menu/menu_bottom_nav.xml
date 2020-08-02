@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/b_home"
+        android:title="@string/b_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        />
+    <item android:id="@+id/b_download"
+        android:title="@string/b_download"
+        android:icon="@drawable/ic_file_download_white_24dp"/>
+
+    <item android:id="@+id/b_setting"
+        android:title="@string/b_setting"
+        android:icon="@drawable/ic_settings_white_24dp"/>
+</menu>

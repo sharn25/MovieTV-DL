@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF121212</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorAccent">#FF319FD0</color>
+    <color name="textColorPrimary">#FFFFFFFF</color>
+    <color name="colorButtonNormal">#FF121212</color>
+
+    <color name="MT_dtl">#aa000000</color>
+    <color name="MT_light">#FFFFFFFF</color>
+    <color name="MT_dark">#FF121212</color>
+    <color name="MT_titleColor">#FF0e1419</color>
+    <color name="MT_black">#FF000000</color>
+    <color name="MT_transprent">#44000000</color>
+    <color name="MTspeatorStock">#aaffffff</color>
+    <color name="MT_nav_ico">#FFA4A6A3</color>
+</resources>

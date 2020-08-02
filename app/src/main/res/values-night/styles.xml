@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme.Night -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="buttonStyle">@style/Theme.Widget.Button</item>
+    </style>
+    <!-- Alert Dialog Night -->
+    <style name="MyDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert"/>
+    <!-- Download List Theme Night -->
+    <style name="AppTheme.List">
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <!-- Button Night -->
+    <style name="Theme.Widget.Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="colorButtonNormal">@color/MT_transprent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+
+</resources>

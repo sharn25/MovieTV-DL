@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:keepScreenOn="true">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/MT_dark">
+     <com.google.android.exoplayer2.ui.PlayerView
+         android:id="@+id/playerview"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/MT_transprent"
+         app:fastforward_increment="3000"
+         app:rewind_increment="3000"
+         app:controller_layout_id="@layout/exo_playback_controller"></com.google.android.exoplayer2.ui.PlayerView>
+        <ProgressBar
+            android:id="@+id/pb_buffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible"/>
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

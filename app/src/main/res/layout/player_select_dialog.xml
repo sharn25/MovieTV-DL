@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/rg_player_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_Iplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play with Internal Player" />
+
+            <RadioButton
+                android:id="@+id/rb_Eplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play with External Player" />
+
+        </RadioGroup>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_player_default"
+            android:layout_marginTop="75dp"
+            android:text="Set as default"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12dp"
+
+            />
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

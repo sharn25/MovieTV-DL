@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">MovieTV DL</string>
+    <string name="no_info">No Movie/TV Series Found.</string>
+    <!--PlayerActivity-->
+    <string name="useragent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61</string>
+    <!--MainActivity -->
+    <string name="update">Update Available</string>
+    <string name="link">Update</string>
+    <!--Bottom Navigation Menu -->
+    <string name="b_home">Home</string>
+    <string name="b_download">Download</string>
+    <string name="b_setting">Setting</string>
+    <!--Download Fragent -->
+    <string name="dwn_incomlete">Incomplete</string>
+    <string name="dwn_completed">Completed</string>
+    <string name="dwn_resume">Resume</string>
+    <string name="dwn_pause">Pause</string>
+    <string name="dwn_delete">Delete</string>
+    <string name="dwn_pauseall">Pause All</string>
+    <string name="dwn_resumeall">Resume All</string>
+    <!--Detailed Activity -->
+    <string name="da_btnShowMore">Show More</string>
+    <string name="da_btnShowLess">Show Less</string>
+    <string name="da_sty">Story Line:</string>
+    <string name="da_link">Links:</string>
+    <string name="da_options">Options:</string>
+    <string name="da_sw_to_stm">Swtich on Stream Mode</string>
+    <!--Search Dialog -->
+    <string name="sd_name">Enter Name</string>
+    <!--Setting Fragment -->
+    <string name="s_source">Select Source:</string>
+    <string name="s_download">Download Location:</string>
+    <string name="s_player">Select Player:</string>
+    <string name="s_theme">Select Theme:</string>
+    <string name="s_Iplayer">Internal Player</string>
+    <string name="s_Eplayer">External Player</string>
+    <string name="s_Aplayer">Ask before Start</string>
+    <string name="s_dark">Dark</string>
+    <string name="s_light">Light</string>
+    <string name="s_save_info">Click the save button after changing the settings.</string>
+    <string name="about">MovieTV DL\nVersion 1.4\nMTV DL makes your watching and Downloading Movies/TV series easy.\nDev: Sharn25\nEmail: SBDev.r@gmail.com\nGitHub: https://github.com/sharn25/MovieTV-DL/</string>
+    <string name="s_parallel_dwn">Parallel Downloads</string>
+    <string name="s_browse">...</string>
+    <string name="s_p_dwn_info">Parallel download setting will take effect on next App start.</string>
+    <string-array name="s_pdwn_enteries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <!--Download Status -->
+    <!-- External download manger data-->
+    <string name="main__please_input_download_file">Please enter the url of the download file</string>
+    <string name="main__please_input_multi_download_files">Please enter multi urls of the download files</string>
+
+    <string name="main__dialog_btn_cancel">Cancel</string>
+    <string name="main__dialog_btn_confirm">Confirm</string>
+
+    <string name="main__save_path">Save Path</string>
+    <string name="main__save_file_name">Save Name</string>
+    <string name="main__file_size">File size:</string>
+
+    <string name="main__confirm_save_path_and_name">Please confirm the save path and name</string>
+    <string name="main__new_download">New download:</string>
+    <string name="main__continue_download">Continue_download:</string>
+    <string name="main__detect_file_error">Detect file error:</string>
+
+    <string name="main__delete_succeed">Delete success</string>
+    <string name="main__deleting">Deleting</string>
+    <string name="main__delete">Delete</string>
+    <string name="main_resume">Resume</string>
+    <string name="main_pause">Pause</string>
+    <string name="main__failed">Failed</string>
+    <string name="main__progress">,Progress:</string>
+    <string name="main__failed2">(Failed:</string>
+    <string name="main__skip_and_total_delete_division">)/</string>
+    <string name="main__need_delete">Need to delete</string>
+    <string name="main__delete_finish">Delete finish,success:</string>
+    <string name="main__failed3">,Failed:</string>
+
+    <string name="main__move_succeed">Move succeed,new Path:</string>
+    <string name="main__moving">Moving:</string>
+    <string name="main__move">Move</string>
+    <string name="main__need_move">Need to move</string>
+    <string name="main__move_finish">Move finish,success:</string>
+
+    <string name="main__rename_succeed">Rename Succeed</string>
+    <string name="main__rename_failed">Rename Failed</string>
+    <string name="main__rename_failed_note">Only support single file to rename at the same time</string>
+
+    <string name="main__can_not_download">Can not download, please delete the file</string>
+    <string name="main__getting_resource">Getting resource</string>
+    <string name="main__retrying_connect_resource">Retrying connect resource</string>
+    <string name="main__connected_resource">Connected resource</string>
+    <string name="main__paused">Paused</string>
+    <string name="main__downloading">Downloading</string>
+    <string name="main__download_error">Download error</string>
+    <string name="main__waiting">Waiting</string>
+    <string name="main__open">Open</string>
+    <string name="main__not_install">Not install</string>
+    <string name="main__download_completed">Download completed</string>
+    <string name="main__file_not_exist">File not exist</string>
+
+    <string name="main__can_not_download2">Can not download,please delete the file:</string>
+    <string name="main__re_download"> re-download</string>
+    <string name="main__start_download">Start/Continue download:</string>
+    <string name="main__whether_re_download">File not exist,whether re-download</string>
+    <string name="main__re_download2">re-download</string>
+    <string name="main__paused_download">Paused download:</string>
+    <string name="main__not_install_apk">Not install,please install apk:</string>
+    <string name="main__no_install">Not install</string>
+    <string name="main__not_install_apk2">Not install,please install apk:</string>
+    <string name="main__check_network">(Check network)</string>
+    <string name="main__url_illegal">(Url illegal)</string>
+    <string name="main__network_timeout">(Network timeout)</string>
+    <string name="main__storage_space_is_full">(Storage space is full)</string>
+    <string name="main__storage_space_can_not_write">(Storage space can not write)</string>
+    <string name="main__file_not_detect">(File not detect)</string>
+    <string name="main__http_bad_response_code">(Http bad response code)</string>
+    <string name="main__http_file_not_exist">(Http file not exist)</string>
+    <string name="main__save_file_not_exist">(Save file not exist)</string>
+
+    <string name="main__confirm_the_dir_path_move_to">Please confirm the dir path move to</string>
+    <string name="main__can_not_rename">can not rename</string>
+    <string name="main__rename_included_suffix">whether include file suffix</string>
+    <string name="main__confirm_rename_info">Please confirm rename info</string>
+    <string name="main__confirm_whether_delete_save_file">whether delete save file?</string>
+
+    <string name="main__confirm_yes">Yes</string>
+    <string name="main__confirm_no">No(Leave save file behind)</string>
+</resources>
