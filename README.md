@@ -1,12 +1,15 @@
 ![Banner](images/icon.png)<br>
 # MovieTV DL : Android Version
-#### Latest Version 1.4 build 0013
+#### Latest Version 1.5 build 0001
 A simple app let you watch and download latest Movies/TV series.
 Steaming and Downloading Movies/TV series becomes easy.
 
 ![screenshot](images/screenshot.png "screenshot")
 
 MovieTV DL is now open source. Feel free update or add new features.
+
+## Feature version 1.5 build 0001
+* Refreshed Source 0
 
 ## Feature version 1.4 build 0013
 * Some source 0.
